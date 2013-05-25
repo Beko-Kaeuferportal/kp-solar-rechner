@@ -1,19 +1,13 @@
 ![kp-solar-rechner](https://raw.github.com/Beko-Kaeuferportal/kp-solar-rechner/master/screens/banner-772x250.png)
 
 # Käuferportal Solarrechner-Plugin #
-Contributors: kaeuferportal
-
-Tags: solar, photovoltaik, calculator, widget
-
-Requires at least: 2.8
-
-Tested up to: 3.5
-
-Stable tag: trunk
-
-License: GPLv2
-
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Contributors: kaeuferportal  
+Tags: solar, photovoltaik, calculator, widget  
+Requires at least: 2.8  
+Tested up to: 3.5  
+Stable tag: trunk  
+License: GPLv2  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
 Das Käuferportal Solarrechner-Plugin ermöglicht, einen Solarrechner als Widget in deinen Blog zu integrieren.
 
@@ -56,7 +50,7 @@ Diese Werte werden verrechnet und der Ertrag ausgegeben. Da Käuferportal ein Sp
 
 1. Aktiviere das Plugin im 'Plugins' Menu in WordPress.
 
-== Screenshots ==
+## Screenshots ##
 
 ![kp-solar-rechner](https://raw.github.com/Beko-Kaeuferportal/kp-solar-rechner/master/screens/screenshot-1.jpg)
 
