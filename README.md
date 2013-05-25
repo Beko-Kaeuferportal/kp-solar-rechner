@@ -9,6 +9,7 @@ Stable tag: trunk
 License: GPLv2  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
+
 Das Käuferportal Solarrechner-Plugin ermöglicht, einen Solarrechner als Widget in deinen Blog zu integrieren.
 
 
@@ -65,3 +66,6 @@ Diese Werte werden verrechnet und der Ertrag ausgegeben. Da Käuferportal ein Sp
 
 * 1.0
   * Der Käuferportal Solarrechner
+
+  
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Beko-Kaeuferportal/kp-solar-rechner/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
