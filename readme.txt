@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Das Käuferportal Solarrechner-Plugin ermöglicht, einen Solarrechner als Widget in deinen Blog zu integrieren.
+Das Käuferportal Solarrechner-Plugin ermöglicht, einen Solarrechner als Widget in Deinen Blog zu integrieren.
 
 == Description ==
 
