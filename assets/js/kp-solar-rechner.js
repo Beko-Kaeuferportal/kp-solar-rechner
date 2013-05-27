@@ -73,7 +73,9 @@ jQuery(function($){
       var alignment_value = {
           'north':  '3f022570b8af012d2fca38ac6f7d89ab',
           'south':  '3f03cdf0b8af012d2fcb38ac6f7d89ab',
+          'south_west':  '3f03cdf0b8af012d2fcb38ac6f7d89ab',
           'east':   '3f057bd0b8af012d2fcc38ac6f7d89ab',
+          'south_east':   '3f057bd0b8af012d2fcc38ac6f7d89ab',
           'west':   '3f073850b8af012d2fcd38ac6f7d89ab',
           'own':    '3f118470b8af012d2fce38ac6f7d89ab'
         };

@@ -1,5 +1,3 @@
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-
 <div id="kp-solar-rechner">
   <a href="www.kaeuferportal.de" target="_blank" id="kp-solar-rechner-headline"></a>
   
@@ -11,12 +9,12 @@
     
     <input type="hidden" value="30" name="produktanfrage_produkt_id">
     <input type="hidden" value="solaranlagen" name="callname">
-    <input type="hidden" class="kp-solar-rechner-input-custom" value="anfrage-element=wordpress-plugin&form-referer=" name="custom">
+    <input type="hidden" class="kp-solar-rechner-input-custom" value="anfrage-element=wordpress-plugin&amp;form-referer=" name="custom">
     <input type="hidden" value="http://www.kaeuferportal.de/lp/solaranlagen/angebot-erhalten/angebot-bestaetigt" name="confirm_url">
     <input type="hidden" value="✓" name="utf8">
     
-    <div id="info-overlay-contact" class="hidden overlay-container"><?php $this->img('close.png', 'close'); ?>
-      <?php $this->img('sidebar.png', 'sidebar'); ?>
+    <div id="info-overlay-contact" class="hidden overlay-container"><?php $this->img('close.png', 'close', 'Schliessen'); ?>
+      <?php $this->img('sidebar.png', 'sidebar', 'Seitenbild'); ?>
       Die Installation einer Solaranlage scheint für Sie <strong>hochrentabel.</strong>
       
       <h1>Jetzt Solaranlage finden!</h1>
@@ -25,9 +23,9 @@
       
       <fieldset>
         <div class="row1 details required anrede">
-    				<label>Anrede	
-    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="true" class="male" checked="checked" type="radio"><span class="label">Herr</span>
-    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="false" class="female" type="radio"><span>Frau</span>
+    				<label>Anrede</label>
+    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="true" class="male" checked="checked" type="radio"/><span class="label">Herr</span>
+    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="false" class="female" type="radio"/><span>Frau</span>
         </div>
         <div class="row1 details required names">
             <label>Vorname </label>
@@ -51,10 +49,10 @@
   </form>
   
   <div id="info-overlay-result" class="hidden overlay-container">
-    <h1>Vielen Dank!<br/>
+    <h1>Vielen Dank!<br/>
     Wir haben Ihre Anfrage erhalten.</h1> 
     <p>In Kürze wird Sie ein Mitarbeiter unseres Solaranlagen-Teams kontaktieren um gemeinsam mit Ihnen die passenden Anbieter für Ihre Anfrage auszuwählen.</p>
-    <?php $this->img('siegel.png'); ?>
+    <?php $this->img('siegel.png', '', 'Siegel'); ?>
   </div>  
   
   <div class="period period-1" data-value="5"></div>
@@ -110,8 +108,8 @@
     
   <div id="kp-solar-button-calculate"></div>  
     
-  <a class="info-overlay calculation" id="info-overlay-calculation-link" href="#info-overlay-calculation"><?php $this->img('delta.png'); ?> <span>Informationen zur Berechnung</span></a>
-  <div id="info-overlay-calculation" class="hidden overlay-container"><?php $this->img('close.png', 'close'); ?>
+  <a class="info-overlay calculation" id="info-overlay-calculation-link" href="#info-overlay-calculation"><?php $this->img('delta.png', '', 'Dreieck'); ?> <span>Informationen zur Berechnung</span></a>
+  <div id="info-overlay-calculation" class="hidden overlay-container"><?php $this->img('close.png', 'close', 'Schliessen'); ?>
     <h1>Berechnungsdetails</h1>
     <br/>
     <b>Strompreis:</b> 26 Cent/kWh<br/>
@@ -127,8 +125,8 @@
   </div>
    
   <div id="hidden-for-preload" style="display:none; visibility:hidden; ">
-    <?php $this->img('button_calc_black_pressed.png'); ?>
-    <?php $this->img('button_calc_orange.png'); ?>
-    <?php $this->img('button_orange_bg.png'); ?>
+    <?php $this->img('button_calc_black_pressed.png', '', 'Button preload'); ?>
+    <?php $this->img('button_calc_orange.png', '', 'Button preload'); ?>
+    <?php $this->img('button_orange_bg.png', '', 'Button preload'); ?>
   </div> 
 </div>
