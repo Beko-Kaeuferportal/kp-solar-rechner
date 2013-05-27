@@ -50,7 +50,7 @@ jQuery(function($){
       firstSelected = true;
     };
     
-    this.plz = 10437;
+    this.plz = 0;
     this.setPlz = function(plz){
       self.plz = plz;
     };
