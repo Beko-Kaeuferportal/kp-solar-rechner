@@ -3,7 +3,7 @@ jQuery(function($){
   var model = new function(){
     var self = this;
     var firstSelected = false;
-    this.periodInYears = 5;
+    this.periodInYears = 10;
     this.setPeriod = function(period){
       self.periodInYears = period;
     };
@@ -93,7 +93,7 @@ jQuery(function($){
       container.append('<input type="hidden" name="notes[Solarspeicher][]" value="' + (self.extension == 0 ? 'nein' : 'ja') + '" />');
       contactform.append(container);
       
-      return firstSelected ? Math.round(self.periodInYears * (calculator.getVerguetung())) : 0;
+      return Math.round(self.periodInYears * (calculator.getVerguetung()));
     };
     
     this.wasFirstSelected = function(){
@@ -175,7 +175,6 @@ jQuery(function($){
   
   /*period switch*/
   setupSwitch($('#kp-solar-rechner .period'), model.setPeriod);
-  model.setPeriod(10);
   $('#kp-solar-rechner .period-1').addClass('period-selected');
    
   /*button rows*/
@@ -184,15 +183,9 @@ jQuery(function($){
   setupButtonRow($('#kp-solar-rechner .button-row.disposition'), model.setDisposition);
   setupButtonRow($('#kp-solar-rechner .button-row.direction'), model.setDirection);
   setupButtonRow($('#kp-solar-rechner .button-row.selfusage'), model.setSelfusage);
-  
-  $('.selfusage .first, .selfusage .second, .selfusage .third').mouseup(function(){
-    $('.extension .extension-no').trigger('mouseup');
-  });
-  
-  /*simple buttons*/
   setupButtonRow($('#kp-solar-rechner .button-row.extension'), model.setExtension);
   setupButtonRow($('#kp-solar-rechner .button-row.type'), model.setType);
-  
+    
   /*selfusage condition extension*/
   var conditionalButtons = $('.button-row.selfusage .disabled');
   $('.simple-button.extension-yes').mouseup(function(){
@@ -200,6 +193,9 @@ jQuery(function($){
   });
   $('.simple-button.extension-no').mouseup(function(){
     conditionalButtons.addClass('disabled');
+  });
+  $('.selfusage .first, .selfusage .second, .selfusage .third').mouseup(function(){
+    $('.extension .extension-no').trigger('mouseup');
   });
   
   /*popups*/

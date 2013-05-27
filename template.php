@@ -9,10 +9,10 @@
   <form method="post" accept-charset="UTF-8" target="hidden-post-frame" name="kp-solar-rechner-form"  action="http://www.kaeuferportal.de/solaranlagen/angebot-erhalten/3?class=wordpress-plugin">
     <input type="text" class="v_zip" id="kp-solar-rechner-plz" value="10117" name="kaeufer_kontakt[postleitzahl]"/>
     
-    <input id="produktanfrage_produkt_id" type="hidden" value="30" name="produktanfrage_produkt_id">
-    <input id="callname" type="hidden" value="solaranlagen" name="callname">
-    <input id="custom"   type="hidden" class="kp-solar-rechner-input-custom" value="anfrage-element=wordpress-plugin&form-referer=" name="custom">
-    <input id="confirm_url" type="hidden" value="http://www.kaeuferportal.de/lp/solaranlagen/angebot-erhalten/angebot-bestaetigt" name="confirm_url">
+    <input type="hidden" value="30" name="produktanfrage_produkt_id">
+    <input type="hidden" value="solaranlagen" name="callname">
+    <input type="hidden" class="kp-solar-rechner-input-custom" value="anfrage-element=wordpress-plugin&form-referer=" name="custom">
+    <input type="hidden" value="http://www.kaeuferportal.de/lp/solaranlagen/angebot-erhalten/angebot-bestaetigt" name="confirm_url">
     <input type="hidden" value="✓" name="utf8">
     
     <div id="info-overlay-contact" class="hidden overlay-container"><?php $this->img('close.png', 'close'); ?>
@@ -23,27 +23,27 @@
       Lassen Sie die vorläufige Prognose vom Fachhändler vor Ort <br/>
       überprüfen und erhalten Sie passende Solaranlagen-Angebote.
       
-      <fieldset class="first-child">
-        <div class="row1 details required anrede first-child">
-    				<label class="first-child">Anrede	
-    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="true" class="male first-child" checked="checked" type="radio"><span class="label">Herr</span>
-    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="false" class="female" type="radio"><span class="label last-child">Frau</span>
+      <fieldset>
+        <div class="row1 details required anrede">
+    				<label>Anrede	
+    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="true" class="male" checked="checked" type="radio"><span class="label">Herr</span>
+    					<input style="border: medium none;" name="kaeufer_kontakt[anrede]" value="false" class="female" type="radio"><span>Frau</span>
         </div>
         <div class="row1 details required names">
-            <label class="first-child">Vorname </label>
-            <input type="text" class="v_name last-child" id="kaeufer_kontakt_vorname" name="kaeufer_kontakt[vorname]" size="30">
+            <label>Vorname </label>
+            <input type="text" class="v_name" id="kaeufer_kontakt_vorname" name="kaeufer_kontakt[vorname]" size="30">
         </div>
         <div class="row1 details required names">
-            <label class="first-child">Nachname </label>
-           <input type="text" class="v_name last-child" id="kaeufer_kontakt_nachname" name="kaeufer_kontakt[nachname]" size="30">
+            <label>Nachname </label>
+           <input type="text" class="v_name" id="kaeufer_kontakt_nachname" name="kaeufer_kontakt[nachname]" size="30">
         </div>
         <div class="row1 details required">
-            <label class="first-child">Telefon </label>
-            <input type="text" class="v_phone last-child" id="kaeufer_kontakt_telefon" name="kaeufer_kontakt[telefon]"> 
+            <label>Telefon </label>
+            <input type="text" class="v_phone" id="kaeufer_kontakt_telefon" name="kaeufer_kontakt[telefon]"> 
         </div>
-        <div class="row1 details required last-child">
-            <label class="first-child">E-Mail </label>
-            <input type="text" class="v_mail last-child" id="kaeufer_kontakt_email" name="kaeufer_kontakt[email]" size="30">
+        <div class="row1 details required">
+            <label>E-Mail </label>
+            <input type="text" class="v_mail" id="kaeufer_kontakt_email" name="kaeufer_kontakt[email]" size="30">
         </div>
       </fieldset>
       <button type="submit" id="kp-solar-button-submit"> </button> 
