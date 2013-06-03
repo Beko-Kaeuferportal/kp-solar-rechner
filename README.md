@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ## Beschreibung ##
 
 
-Das [Käuferportal](http://www.kaeuferportal.de/solaranlagen-kaufberatung/solaranlagen-135 "Käuferportal")-Solarrechner-Plugin für Wordpress ermöglicht, einen Solarrechner als Widget in Deinem Blog zu integrieren. Der Solarrechner berechnet die Ersparnis einer Solaranlage. Er hat eine große Anzahl an Einstellmöglichkeiten und berücksichtigt unter anderem den Eigenverbrauch. Ein Highlight ist die Einbeziehung der monatlichen Degression der Einspeisevergütung. 
+Das [Käuferportal](http://www.kaeuferportal.de/solaranlagen-kaufberatung/solaranlagen-135 "Käuferportal")-Solarrechner-Plugin für Wordpress ermöglicht, einen Solarrechner als Widget oder Shortcode in Deinem Blog zu integrieren. Der Solarrechner berechnet die Ersparnis einer Solaranlage. Er hat eine große Anzahl an Einstellmöglichkeiten und berücksichtigt unter anderem den Eigenverbrauch. Ein Highlight ist die Einbeziehung der monatlichen Degression der Einspeisevergütung. 
 
 
 
@@ -46,7 +46,9 @@ Nach Eingabe aller Informationen, zeigt das Programm die mögliche Ersparnis dur
 
 1. Aktiviere das Plugin im 'Plugins' Menu in WordPress.
 
-1. Platziere das Widget im 'Designs' Menu in Wordpress. 
+1. Platziere das Widget im 'Designs' Menu in Wordpress.
+
+1. Alternativ kann auch der Shortcode `[kp_solar_rechner]` innerhalb eines Betrags verwendet werden. 
 
 ## Screenshots ##
 
@@ -59,7 +61,9 @@ Nach Eingabe aller Informationen, zeigt das Programm die mögliche Ersparnis dur
 
 
 ## Changelog ##
-
+* 1.0.1
+  * Der Käuferportal Solarrechner kann jetzt auch als Shortcode `[kp_solar_rechner]` eingebunden werden.
+  
 
 * 1.0
   * Der Käuferportal Solarrechner
